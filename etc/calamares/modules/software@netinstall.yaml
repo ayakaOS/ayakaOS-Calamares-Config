@@ -1,0 +1,162 @@
+- name: "ayakaOS Apps"
+  description: ""
+  hidden: false
+  selected: true
+  expanded: true
+  critical: false
+  packages:
+    - ayakaos-sound-theme
+    - bibata-cursor-theme-ayakaos
+    - colloid-icon-theme-ayakaos
+    - ttf-ayakaos
+- name: "Input Method"
+  description: ""
+  hidden: false
+  selected: true
+  expanded: false
+  critical: false
+  packages:
+   - fcitx5-im
+   - fcitx5-chinese-addons
+   - fcitx5-pinyin-moegirl
+   - fcitx5-pinyin-zhwiki
+- name: "Web Browser"
+  description: ""
+  hidden: false
+  selected: true
+  expanded: true
+  critical: false
+  subgroups:
+      - name: "Brave"
+        description: "Web browser that blocks ads and trackers by default"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - brave-bin
+      - name: "Chromium"
+        description: "A web browser built for speed, simplicity, and security"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - chromium
+      - name: "Falkon"
+        description: "Cross-platform QtWebEngine browser"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - falkon
+      - name: "Firefox"
+        description: "Fast, Private & Safe Web Browser"
+        hidden: false
+        selected: true
+        critical: false
+        packages:
+          - firefox
+          - firefox-i18n-$LOCALE
+      - name: "Microsoft Edge"
+        description: "A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - microsoft-edge-stable-bin
+- name: "Video & Audio"
+  description: ""
+  hidden: false
+  selected: true
+  expanded: false
+  critical: true
+  packages:
+   - mpv
+   - vlc
+- name: "Shell"
+  description: ""
+  hidden: false
+  expanded: true
+  critical: true
+  subgroups:
+      - name: "Fish"
+        description: ""
+        selected: true
+        packages:
+           - fish
+      - name: "Zsh"
+        description: ""
+        selected: true
+        packages:
+           - zsh
+           - zsh-completions
+- name: "Kernel"
+  description: ""
+  hidden: false
+  selected: false
+  expanded: true
+  critical: false
+  subgroups:
+      - name: "CachyOS Kernel (linux-cachyos)"
+        description: "The Linux EEVDF + LTO + AutoFDO + Propeller + Cachy Sauce Kernel by CachyOS with other patches and improvements."
+        hidden: false
+        selected: true
+        expanded: false
+        critical: false
+        packages:
+          - linux-cachyos
+          - linux-cachyos-headers
+      - name: "CachyOS Kernel RC (linux-cachyos-rc)"
+        description: "The Linux BORE + LTO + AutoFDO + Propeller + Cachy Sauce Kernel by CachyOS with other patches and improvements."
+        selected: false
+        expanded: false
+        critical: false
+        packages:
+          - linux-cachyos-rc
+          - linux-cachyos-rc-headers
+      - name: "Linux ZEN (linux-zen)"
+        description: ""
+        selected: false
+        expanded: false
+        critical: false
+        packages:
+          - linux-zen
+          - linux-zen-headers
+      - name: "Original Linux (linux)"
+        description: ""
+        selected: false
+        expanded: false
+        critical: false
+        packages:
+          - linux
+          - linux-headers
+      - name: "Linux LTS (linux-lts)"
+        description: ""
+        selected: false
+        expanded: false
+        critical: false
+        packages:
+          - linux-lts
+          - linux-lts-headers
+      - name: "Linux Hardened (linux-hardened)"
+        description: ""
+        selected: false
+        expanded: false
+        critical: false
+        packages:
+           - linux-hardened
+           - linux-hardened-headers
+- name: "Other Tools"
+  description: ""
+  hidden: false
+  selected: true
+  expanded: false
+  critical: true
+  packages:
+   - btrfs-assistant
+   - duperemove
+   - grub-btrfs
+   - htop
+   - octopi
+   - paru
+   - timeshift
+   - yay

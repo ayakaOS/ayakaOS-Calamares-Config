@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install ayakaOS
+Name[zh_CN]=安装 ayakaOS
+GenericName=Live Installer
+Comment=Install ayakaOS with Calamares.
+Comment[zh_CN]=使用 Calamares 安装 ayakaOS。
+Exec=calamares_polkit
+Icon=calamares
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Qt;System;
