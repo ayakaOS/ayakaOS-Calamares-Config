@@ -1,4 +1,4 @@
-pkgname=calamares-settings-ayakaos
+pkgname=ayakaos-calamares-config
 pkgver=26.02
 pkgrel=1
 pkgdesc="ayakaOS 的 Calamares 设置"
