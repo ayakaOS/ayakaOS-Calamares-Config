@@ -4,10 +4,10 @@
 #   selected: false
 #   expanded: false
 #   critical: true
-- name: Plasma
+- name: "KDE Plasma"
   description: "Simple by default, powerful when needed."
   hidden: false
-  selected: true
+  selected: false
   expanded: false
   critical: true
   packages:
