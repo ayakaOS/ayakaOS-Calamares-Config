@@ -94,6 +94,7 @@
         description: "Packages tools"
         selected: true
         packages:
+          - archlinuxcn-keyring
           - octopi
           - pacman-contrib
           - paru
@@ -104,10 +105,8 @@
         description: "Useful helper tools and libs for desktop usage"
         selected: true
         packages:
-          - ayakaos-sound-theme
           - accountsservice
           - bash-completion
-          - bibata-cursor-theme-ayakaos
           - ffmpegthumbnailer
           - gst-libav
           - gst-plugin-pipewire
@@ -138,7 +137,7 @@
         selected: true
         packages:
           - noto-fonts-emoji
-          - ttf-ayakaos
+          #- ttf-ayakaos
           - wqy-microhei
       - name: "Audio"
         description: "Audio handling tools apps and libs"
