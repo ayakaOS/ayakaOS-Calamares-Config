@@ -1,4 +1,5 @@
-- name: "ayakaOS Apps"
+- name: "󰣇 ayakaOS Apps"
+  name[zh_CN]: "󰣇 ayakaOS 软件"
   description: ""
   hidden: false
   selected: true
@@ -9,8 +10,9 @@
     - bibata-cursor-theme-ayakaos
     - colloid-icon-theme-ayakaos
     - ttf-ayakaos
-- name: "Input Method"
-  description: ""
+- name: " Input Method"
+  name[zh_CN]: " 输入法"
+  description: "Fcitx 5"
   hidden: false
   selected: true
   expanded: false
@@ -20,7 +22,8 @@
    - fcitx5-chinese-addons
    - fcitx5-pinyin-moegirl
    - fcitx5-pinyin-zhwiki
-- name: "Web Browser"
+- name: "󰖟 Web Browser"
+  name[zh_CN]: "󰖟 浏览器"
   description: ""
   hidden: false
   selected: true
@@ -34,7 +37,7 @@
         critical: false
         packages:
           - brave-bin
-      - name: "Chromium"
+      - name: "󰊯 Chromium"
         description: "A web browser built for speed, simplicity, and security"
         hidden: false
         selected: false
@@ -48,7 +51,7 @@
         critical: false
         packages:
           - falkon
-      - name: "Firefox"
+      - name: "󰈹 Firefox"
         description: "Fast, Private & Safe Web Browser"
         hidden: false
         selected: true
@@ -56,14 +59,14 @@
         packages:
           - firefox
           - firefox-i18n-$LOCALE
-      - name: "Microsoft Edge"
+      - name: "󰇩 Microsoft Edge"
         description: "A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier"
         hidden: false
         selected: false
         critical: false
         packages:
           - microsoft-edge-stable-bin
-- name: "Video & Audio"
+- name: " Video & Audio"
   description: ""
   hidden: false
   selected: true
@@ -72,24 +75,24 @@
   packages:
    - mpv
    - vlc
-- name: "Shell"
+- name: " Shell"
   description: ""
   hidden: false
   expanded: true
   critical: true
   subgroups:
-      - name: "Fish"
+      - name: " Fish"
         description: ""
         selected: true
         packages:
            - fish
-      - name: "Zsh"
+      - name: " Zsh"
         description: ""
         selected: true
         packages:
            - zsh
            - zsh-completions
-- name: "Other Tools"
+- name: " Other Tools"
   description: ""
   hidden: false
   selected: true

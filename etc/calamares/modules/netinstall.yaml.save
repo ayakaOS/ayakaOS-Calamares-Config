@@ -65,6 +65,7 @@
       - name: " Network"
         name[zh_CN]: " 网络"
         description: "Network apps drivers and tools"
+        description[zh_CN]: "网络App驱动和工具"
         selected: true
         packages:
           - dhclient
@@ -99,6 +100,7 @@
       - name: "󰏓 Packages Management"
         name[zh_CN]: "󰏓 包管理"
         description: "Packages tools"
+        description[zh_CN]: "软件包实用工具"
         selected: true
         packages:
           - archlinuxcn-keyring
@@ -109,6 +111,7 @@
           - rebuild-detector
           - yay
       - name: " Desktop Integration"
+        name[zh_CN]: " 桌面整合包"
         description: "Useful helper tools and libs for desktop usage"
         selected: true
         packages:
@@ -175,16 +178,14 @@
           - mtools
           - sg3_utils
           - sof-firmware
-      - name: "󰐥 Power"
-        name[zh_CN]: "󰐥 电源"
+      - name: "Power"
         description: "Powermanagement support"
-        description[zh_CN]: "电源管理支持"
         selected: true
         packages:
           - cpupower
           - power-profiles-daemon
           - upower
-      - name: " Some applications selection"
+      - name: "Some applications selection"
         description: "General tools and applications"
         selected: true
         packages:
@@ -214,7 +215,7 @@
           - vi
           - vim
           - wget
-- name: " CPU specific Microcode update packages"
+- name: "CPU specific Microcode update packages"
   description: "Microcode update image for AMD and Intel CPU"
   hidden: false
   selected: true
@@ -222,8 +223,7 @@
   packages:
     - amd-ucode
     - intel-ucode
-- name: " Printing Support"
-  name[zh_CN]: " 打印支持"
+- name: "Printing Support"
   description: "Support for printing (Cups)"
   hidden: false
   selected: false
@@ -243,7 +243,7 @@
     - gutenprint
     - splix
     - system-config-printer
-- name: " Support for HP Printer/Scanner"
+- name: "Support for HP Printer/Scanner"
   description: "Extra Packages for HP Printer/Scanner"
   hidden: false
   selected: false
@@ -255,10 +255,8 @@
     - cups
     - cups-filters
     - cups-pdf
-- name: " NVIDIA Drivers"
-  name[zh_CN]: " NVIDIA 驱动"
-  description: "NVIDIA GPU drivers (So NVIDIA F**K YOU!)"
-  description[zh_CN]: "N卡驱动 (So NVIDIA F**K YOU!)"
+- name: "NVIDIA Drivers"
+  description: "You can install NVIDIA drivers if your PC have NVIDIA GPU. (So NVIDIA F**K YOU!)"
   hidden: false
   selected: false
   critical: true
@@ -270,8 +268,7 @@
     - nvidia-open-dkms
     - nvidia-utils
     - opencl-nvidia-580xx
-- name: " Accessibility Tools"
-  name[zh_CN]: " 无障碍工具"
+- name: "Accessibility Tools"
   description: "Screen reader and mouse tweaks (impaired vision)"
   hidden: false
   selected: false
