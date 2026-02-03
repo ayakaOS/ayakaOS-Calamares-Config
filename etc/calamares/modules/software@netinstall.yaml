@@ -30,7 +30,7 @@
   expanded: true
   critical: false
   subgroups:
-      - name: "Brave"
+      - name: "󰀻 Brave"
         description: "Web browser that blocks ads and trackers by default"
         hidden: false
         selected: false
@@ -44,7 +44,7 @@
         critical: false
         packages:
           - chromium
-      - name: "Falkon"
+      - name: "󰀻 Falkon"
         description: "Cross-platform QtWebEngine browser"
         hidden: false
         selected: false
