@@ -102,11 +102,15 @@
   expanded: false
   critical: true
   packages:
+   - btop
    - btrfs-assistant
    - duperemove
    - grub-btrfs
    - htop
+   - mc
+   - nnn
    - octopi
    - paru
+   - ranger
    - timeshift
    - yay
