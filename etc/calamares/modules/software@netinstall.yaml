@@ -31,27 +31,6 @@
   expanded: true
   critical: false
   subgroups:
-      - name: "󰀻 Brave"
-        description: "Web browser that blocks ads and trackers by default"
-        hidden: false
-        selected: false
-        critical: false
-        packages:
-          - brave-bin
-      - name: "󰊯 Chromium"
-        description: "A web browser built for speed, simplicity, and security"
-        hidden: false
-        selected: false
-        critical: false
-        packages:
-          - chromium
-      - name: "󰀻 Falkon"
-        description: "Cross-platform QtWebEngine browser"
-        hidden: false
-        selected: false
-        critical: false
-        packages:
-          - falkon
       - name: "󰈹 Firefox"
         description: "Fast, Private & Safe Web Browser"
         hidden: false
@@ -60,6 +39,13 @@
         packages:
           - firefox
           - firefox-i18n-$LOCALE
+      - name: "󰊯 Chromium"
+        description: "A web browser built for speed, simplicity, and security"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - chromium
       - name: "󰇩 Microsoft Edge"
         description: "A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier"
         hidden: false
@@ -67,6 +53,20 @@
         critical: false
         packages:
           - microsoft-edge-stable-bin
+      - name: "󰀻 Brave"
+        description: "Web browser that blocks ads and trackers by default"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - brave-bin
+      - name: "󰀻 Falkon"
+        description: "Cross-platform QtWebEngine browser"
+        hidden: false
+        selected: false
+        critical: false
+        packages:
+          - falkon
 #- name: " Video & Audio"
 - name: " 影音"
   description: ""

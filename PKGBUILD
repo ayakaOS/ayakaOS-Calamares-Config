@@ -1,9 +1,10 @@
-pkgname=ayakaos-calamares-config
+pkgname=caelumos-calamares-config
 pkgver=26.02
 pkgrel=1
-pkgdesc="ayakaOS 的 Calamares 设置"
+pkgdesc="CaelumOS 的 Calamares 设置"
 arch=('any')
-url="https://github.com/arch-linux-calamares-installer"
+#url="https://github.com/arch-linux-calamares-installer"
+url="https://github.com/CaelumOS/CaelumOS-Calamares-Config"
 license=('GPL-3.0-or-later')
 makedepends=('git')
 provides=()
