@@ -24,13 +24,13 @@ ln -s /usr/share/pixmaps/logo-text-dark.svg /usr/share/pixmaps/archlinux-logo-te
 ## /etc/motd
 #cat > "/etc/motd" <<- _EOF_
 #_EOF_
-echo 'ayakaOS | Do simple things.' > /etc/motd
+echo 'CaelumOS | Do simple things.' > /etc/motd
 echo '' >> /etc/motd
-echo ' Welcome to ayakaOS!' >> /etc/motd
+echo ' Welcome to CaelumOS!' >> /etc/motd
 echo '' >> /etc/motd
-echo ' - URL:    https://ayakaOS.asia' >> /etc/motd
-echo ' - Docs:   https://ayakaOS.de5.net' >> /etc/motd
-echo ' - GitHub: https://github.com/ayakaOS/ayakaOS' >> /etc/motd
+#echo ' - URL:    https://ayakaOS.asia' >> /etc/motd
+#echo ' - Docs:   https://ayakaOS.de5.net' >> /etc/motd
+echo ' - GitHub: https://github.com/CaelumOS/CaelumOS' >> /etc/motd
 echo '' >> /etc/motd
 
 ## -------------------------------------------------------------- ##
@@ -67,11 +67,11 @@ pacman-key --recv-keys 7931B6D628C8D3BA
 pacman-key --finger 7931B6D628C8D3BA
 pacman-key --lsign-key 7931B6D628C8D3BA
 
-## ayakaOS
+## CaelumOS
 echo '' >> /etc/pacman.conf
-echo '[ayakaOS]' >> /etc/pacman.conf
+echo '[CaelumOS]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
-echo 'Server = https://raw.githubusercontent.com/ayakaOS/ayakaOS-repo/main' >> /etc/pacman.conf
+echo 'Server = https://raw.githubusercontent.com/CaelumOS/CaelumOS-repo/main' >> /etc/pacman.conf
 #echo 'Server = file:///var/ayakaOS-repo' >> /etc/pacman.conf # 本地源
 
 ##fcitx5
