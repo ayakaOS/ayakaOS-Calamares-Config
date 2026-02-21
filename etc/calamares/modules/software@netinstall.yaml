@@ -1,16 +1,17 @@
-#- name: "󰣇 ayakaOS Apps"
-- name: "󰣇 ayakaOS 软件"
+#- name: "󰣇 CaelumOS Apps"
+- name: "󰣇 CaelumOS 软件"
   description: ""
   hidden: false
   selected: true
   expanded: true
   critical: false
   packages:
-    - ayakaos-sound-theme
     - bibata-cursor-theme-caelumos
+    - caelumos-sound-theme
     - colloid-icon-theme-git
     - darkly-bin
     - lingmo-gtk-themes
+    - yaru-gtksourceview-theme
 #- name: " Input Method"
 - name: " 输入法"
   description: "Fcitx 5"
